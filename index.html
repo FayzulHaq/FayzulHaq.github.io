@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap" rel="stylesheet">
+    <title>Muh.Fayzul Haq</title>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+   </head>
+
+</head>
+<body>
+    <h1 class="title"><span><i class="fas fa-calculator-alt"></i></span>Kalkulator</h1>
+    <div class="container">
+        <div class="form">
+            <input type="text" class='input' id='bil1' placeholder="Masukkan bilangan pertama...">
+
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+    
+        <input type="text" class='input' id='bil2' placeholder="Masukkan bilangan kedua...">
+        </div>
+
+        <section>
+            <div class="lates">Hasil:</div>
+            <div id="hasil"></div>
+        </section>
+    </div>
+    <div class="btn-container">
+        <a class="is"><i class="fas fa-equals"></i></a>
+        <a class="reset"><i class="fas fa-undo-alt"></i></a>
+    </div>
+
+    <div class="error">
+        <span>&#129488;</span><br>
+        Nilai yang anda Masukkan tidak valid!
+    </div>
+</body>
+<script src='app.js'></script>
+</html>
+
