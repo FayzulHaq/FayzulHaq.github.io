@@ -138,7 +138,6 @@ select{
     .btn-container{
         flex-direction: column;
         margin: 0px auto;
-        margin-left: 27vw;
     }
     .is , .reset{
         width: 270px;
