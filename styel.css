@@ -51,6 +51,7 @@ select{
     width: 200px;
     height: 200px;
     text-align: center;
+    overflow-wrap:break-word;
 }
 
 #bil1,#bil2{
